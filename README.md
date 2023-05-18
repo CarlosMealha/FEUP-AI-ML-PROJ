@@ -1,6 +1,6 @@
 # Sports Articles Objectivity Analysis
 
-This project focuses on applying supervised learning algorithms to analyze the objectivity of sports articles. The goal is to classify sports articles as either objective or subjective based on their content. The project utilizes the following algorithms: K-Nearest Neighbors (KNN), Decision Trees, and Support Vector Machines (SVM).
+This project focuses on applying supervised learning algorithms to analyze the objectivity of sports articles. The goal is to classify sports articles as either objective or subjective based on their content. The project utilizes the following algorithms: K-Nearest Neighbors (KNN), Decision Trees, and Support Vector Classifier (SVC).
 
 ## Dataset
 
@@ -14,7 +14,7 @@ The project implements the following supervised learning algorithms:
 
 2. Decision Trees: Decision Trees are a versatile algorithm that builds a tree-like model for classification. It partitions the feature space based on the values of different features and creates decision rules to assign class labels. The model learns to make decisions by asking questions at each node of the tree until reaching a leaf node with a predicted class label.
 
-3. Support Vector Machines (SVM): SVM is a powerful algorithm that separates data points in a high-dimensional space using hyperplanes. It aims to find an optimal hyperplane that maximizes the margin between different classes, thereby achieving good generalization to unseen data. SVM can handle both linearly separable and non-linearly separable data through the use of kernel functions.
+3. Support Vector Classifier (SVC): SVC is a supervised learning algorithm that separates data points into different classes by finding an optimal hyperplane in a high-dimensional feature space. In this project, SVC is used to classify sports articles by creating a decision boundary that maximally separates the objective and subjective articles based on their textual features.
 
 ## Implementation
 
@@ -22,7 +22,7 @@ The project implementation can be found in the "deep-learning-texts.ipynb" noteb
 
 1. Data preprocessing: Loading the dataset, performing feature extraction, and splitting the data into training and test sets.
 
-2. Algorithm selection: Defining the KNN, Decision Trees, and SVM algorithms from the scikit-learn library.
+2. Algorithm selection: Defining the KNN, Decision Trees, and SVC.
 
 3. Model training: Fitting the algorithms to the training data to learn the underlying patterns and relationships.
 
@@ -34,13 +34,10 @@ The project implementation can be found in the "deep-learning-texts.ipynb" noteb
 
 The results of the supervised learning models applied to the sports articles dataset are as follows:
 
-- K-Nearest Neighbors achieved an accuracy of X% on the test set.
-- Decision Trees achieved an accuracy of X% on the test set.
-- Support Vector Machines achieved an accuracy of X% on the test set.
+- K-Nearest Neighbors achieved an accuracy of 68.4% on the test set.
+- Decision Trees achieved an accuracy of 72.8% on the test set.
+- Support Vector Machines achieved an accuracy of 77.6% on the test set.
 
-These results provide insights into the effectiveness of each algorithm for classifying the objectivity of sports articles.
-
-Feel free to explore the "deep-learning-texts.ipynb" notebook for a detailed walkthrough of the implementation and further analysis.
 
 ## Requirements
 
@@ -50,6 +47,4 @@ The following dependencies are required to run the project:
 - pandas
 - numpy
 - matplotlib
-
-You can install the required packages by running:
 
