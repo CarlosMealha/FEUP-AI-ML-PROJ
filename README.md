@@ -34,9 +34,9 @@ The project implementation can be found in the "deep-learning-texts.ipynb" noteb
 
 The results of the supervised learning models applied to the sports articles dataset are as follows:
 
-- K-Nearest Neighbors achieved an accuracy of 68.4% on the test set.
-- Decision Trees achieved an accuracy of 72.8% on the test set.
-- Support Vector Machines achieved an accuracy of 77.6% on the test set.
+- K-Nearest Neighbors achieved an accuracy of 76.7% on the test set.
+- Decision Trees achieved an accuracy of 81.1% on the test set.
+- Support Vector Machines achieved an accuracy of 79.9% on the test set.
 
 
 ## Requirements
